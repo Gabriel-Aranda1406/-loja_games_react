@@ -22,10 +22,10 @@ return (
             <Route path="/cadastrarproduto" element={<FormularioProduto />} />
             <Route path="/editarproduto/:id" element={<FormularioProduto />} />
             <Route path="/deletarproduto/:id" element={<DeletarProduto />} /> */}
-            {/* <Route path="/categorias" element={<ListarCategorias />} />
+            <Route path="/categorias" element={<ListarCategorias />} />
             <Route path="/cadcategoria" element={<FormCategoria />} />
             <Route path="/editarcategoria/:id" element={<FormCategoria />} />
-            <Route path="/deletarcategoria/:id" element={<DeletarCategoria />} /> */}
+            <Route path="/deletarcategoria/:id" element={<DeletarCategoria />} />
             </Routes>
         </div>
         <Footer />
