@@ -1,6 +1,7 @@
 import { ShoppingCart } from "@phosphor-icons/react"
 import { Link } from "react-router-dom"
 
+
 function Navbar() {
 
     return (
@@ -13,8 +14,8 @@ function Navbar() {
 
                     <div className='flex gap-4 font-display'>
                     Produtos
-                    Categorias
-                    Cadastrar Categoria
+                    <Link to='/categorias' className='hover:underline'>Categorias</Link>
+                    <Link to='/cadcategoria' className='hover:underline'>Cadastrar Categoria</Link>
                     <ShoppingCart size={32} weight='bold' />
                         
                         {/* <Link to='/temas' className='hover:underline'>Temas</Link>
