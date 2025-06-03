@@ -67,8 +67,8 @@ Aqui eu deixei um screenshot da aplicação (na visão para celulares) para most
 Para rodar o projeto localmente, siga os passos abaixo:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/Gabriel-Aranda1406/-loja_games_react
+cd -loja_games_react
 yarn
 vite
 
