@@ -8,7 +8,7 @@ function Home() {
                 <div className="container grid grid-cols-2 text-white">
                     <div className="flex flex-col items-center gap-4 justify-center py-4" >
                         <img src="https://ik.imagekit.io/4lf7m2y5a/SUPER-Games-23-05-2024.png?updatedAt=1716473741031" alt="" width="400px" />
-                        <h1 className="text-5xl font-display ">Onde cada jogo vira realidade.</h1>
+                        <h1 className="text-2xl font-display ">Onde cada jogo vira realidade.</h1>
 
                         <div className="flex justify-around gap-4">
                             <button className='
