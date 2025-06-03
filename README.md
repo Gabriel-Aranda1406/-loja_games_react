@@ -1,30 +1,50 @@
-# React + TypeScript + Vite
+# 🕹️ Frontend Loja de Games — Generation Brasil
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido como parte da formação na **Generation Brasil**, com o objetivo de consumir uma API REST e exibir os dados em uma interface moderna e funcional.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📄 Descrição
 
-## Expanding the ESLint configuration
+Este projeto consiste no **Frontend** de uma Loja de Games, consumindo os dados disponibilizados por uma API pública hospedada no Render.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Projeto desenvolvido como parte de uma avaliação na formação da **Generation Brasil**, com o objetivo de consumir uma API REST e exibir os dados em uma interface moderna e funcional.
 
-- Configure the top-level `parserOptions` property like this:
+A API pode ser acessada e testada diretamente via Swagger:  
+➡️ [https://lojagames-nest.onrender.com/swagger](https://lojagames-nest.onrender.com/swagger)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+O projeto foi desenvolvido utilizando:  
+- **React** com **Vite**  
+- **TypeScript**  
+- Requisições HTTP com **Axios**
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+---
+
+## 💻 Funcionalidades
+
+- Exibição de uma lista de games, consumidos da API.
+- Interface moderna e responsiva.
+- Componentização com React.
+- Tipagem estática com TypeScript.
+- Consumo de API utilizando `axios`.
+
+---
+
+## 🖼️ Imagens da Aplicação
+
+
+Aqui eu deixei um screenshot da aplicação (na visão para celulares) para mostrar a interface. Exemplo:
+
+![Página Inicial](./visão_celular.jpeg)
+
+---
+
+## ⚙️ Instalação e Execução Local
+
+Para rodar o projeto localmente, siga os passos abaixo:
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+yarn
+vite
