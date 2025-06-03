@@ -30,6 +30,29 @@ O projeto foi desenvolvido utilizando:
 
 ---
 
+## 🌐 Deploy
+
+https://lojasupergames.vercel.app/
+
+---
+
+## ⚠️ Observações Importantes
+
+A API está hospedada no Render, que pode demorar alguns segundos para "acordar" quando está inativa.
+
+➡️ Para garantir que os produtos carreguem corretamente:
+
+1. Acesse primeiro a documentação da API:
+https://lojagames-nest.onrender.com/swagger
+
+2. Aguarde até que a página carregue completamente e os endpoints fiquem disponíveis.
+
+3. Em seguida, abra a aplicação na Vercel ou rode o projeto localmente.
+
+Assim, você evitará problemas de timeout ou carregamento incompleto de produtos.
+
+---
+
 ## 🖼️ Imagens da Aplicação
 
 
@@ -48,3 +71,6 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 yarn
 vite
+
+
+
